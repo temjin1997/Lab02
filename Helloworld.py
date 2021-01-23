@@ -1,4 +1,4 @@
-name = input ("what is your name?")
+name = input ("what is your name, tell me?")
 
 msg ="Hello" + name +"!"
 
