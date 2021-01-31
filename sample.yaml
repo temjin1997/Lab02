@@ -1,0 +1,28 @@
+--- # 1st document
+people:
+- Id: 1
+  Code: 524.37
+  Fn: Ben
+  Ln: Finkel
+  Email: ben.finkel@ab.com
+  Active: true
+- Id: 2
+  Code: 813.09
+  Fn: Jane
+  Ln: Doe
+  Email: jane.doe@ab.com
+  Active: true
+- Id: 3
+  Code: 102.9
+  Fn: Pat
+  Ln: Smith
+  Email: pat.smith@ab.com
+  Active: false
+...
+--- # 2nd document
+people:
+- item1: item1value
+...
+--- # 3rd document
+people:
+- item2: item2value
