@@ -1,9 +1,14 @@
 import requests
 from pprint import pprint
 
+from requests.packages.urllib3.exceptions import InsecureRequestWarning
+requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+
 url = "https://10.50.50.19:443/api/aaaLogin.json"
 
 payload="{\r\n\"aaaUser\":{\r\n\"attributes\":{\r\n\"name\":\"cisco\",\r\n\"pwd\":\"cisco\"\r\n}\r\n}\r\n}"
+
+
 headers = {
   'Content-Type': 'application/json',
 #  'Authorization': 'Basic Y2lzY286Y2lzY28=',
